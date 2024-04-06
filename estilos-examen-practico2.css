@@ -1,0 +1,146 @@
+nav ul li {
+    display: inline-block;
+    margin: 5px 5px;
+    padding: 10px 10px;
+    color: white;
+    margin-top: 2em;
+    font-size: 20px;
+}
+.menu {
+    margin: 0 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    outline-offset: 15px;
+    outline: 2px solid white;
+}
+#logo{
+    font-size: 0.4in;
+}
+aside#der {
+    position: absolute;
+    top: 150px;
+    right: 70px;
+    margin: auto;
+    margin-top: auto;
+}
+h1{
+    padding: 10px;
+    border: 2px solid white;
+    background-color: violet;
+    border-radius: 0.5em;
+    width: 10em;
+    height: 2.5em;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2.5em;
+    color: white;
+}
+#parcial{
+    margin: 10px;
+    padding: 10px;
+}
+p{
+    padding-right: 35%;
+}
+input{
+    font-size: 1em;
+    padding: 0.5em;
+    border: solid  black 2px; 
+    width: 10em;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+}
+#usuario{
+    width: 5cm;
+}
+#password{
+    width: 5cm;
+}
+#submit-button {
+    padding: 10px;
+    border: 2px solid white;
+    background-color: violet;
+    border-radius: 0.5em;
+    width: 5.5cm;
+    height: 2cm;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    cursor: pointer;
+}
+#inicio{
+    text-align: center;
+    color: white;
+    background-color: violet;
+    border: none;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 6cm;
+    height: 1cm;
+}
+#parcial1{
+    text-align: center;
+    color: white;
+    background-color: violet;
+    border: none;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 6cm;
+    height: 1cm;
+}
+#parcial2{
+    text-align: center;
+    color: white;
+    background-color: violet;
+    border: none;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 6cm;
+    height: 1cm;
+}
+#parcial3{
+    text-align: center;
+    color: white;
+    background-color: violet;
+    border: none;
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 6cm;
+    height: 1cm;
+}
+#portafolio{
+    text-align: center;
+    color: white;
+    background-color: violet;
+    border: none;
+    cursor: pointer;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 6cm;
+    height: 1cm;
+}
+#inicio:hover, #parcial1:hover, #parcial2:hover, #parcial3:hover, #portafolio:hover{
+    opacity: 0.5;
+}
+#submit-button{
+    opacity: 0.5;
+    color: black;
+}
+footer{
+    position: absolute;
+    background-color: violet;
+    width: 100%;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    padding-top: -5px;
+    border: 5px;
+    bottom: 0;
+}
