@@ -1,0 +1,23 @@
+.texto{
+    border-radius: 5px; 
+    border: 1px solid black; 
+    padding: 1em;
+    text-align: center;
+    width: 200px; 
+    height: 25px;
+    margin: 50px auto 0;
+    background-color: orange;
+    color: white;
+}
+.texto:hover{
+    background-color: yellow;
+    color: gray;
+    display: block;
+    transform: skew(3deg, 3deg);
+}
+a:visited{
+    background-color: green;
+    color: gray;
+    display: block;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
