@@ -1,0 +1,23 @@
+div {
+    background: gray;
+    color: black;
+    height: 200px;
+}
+
+#cadena {
+    height: 30px;
+    width: 97%;
+    padding-left: 20px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+#boton{
+    background-color: pink;
+    color: white;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 20px;
+    border: 1px solid black;
+    width: 98.8%;
+}
