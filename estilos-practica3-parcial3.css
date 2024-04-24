@@ -1,0 +1,34 @@
+#nombre{
+    height: 30px;
+    width: 1000px;
+}
+#ap{
+    height: 30px;
+    width: 1000px;
+}
+#am{
+    height: 30px;
+    width: 1000px;
+}
+#anio{
+    height: 30px;
+    width: 1000px;
+}
+#mes{
+    height: 30px;
+    width: 1000px;
+}
+#dia{
+    height: 30px;
+    width: 1000px;
+}
+#resultado{
+    height: 30px;
+    width: 1000px;
+}
+#boton{
+    height: 30px;
+    width: 1000px;
+    color: white;
+    background: blue;
+}
