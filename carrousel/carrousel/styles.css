@@ -1,0 +1,44 @@
+/*Posicion del carousel*/
+.carousel {
+  position: relative;
+  max-width: 600px;
+  margin: auto;
+  overflow: hidden;
+}
+
+/*Display del carousel*/
+.carousel-content {
+  display: flex;
+}
+/*Tamaño de las imagenes*/
+.carousel-content img {
+  width: 100%;
+  display: none;
+}
+/*Display para las imagenes*/
+.carousel-content img.active {
+  display: block;
+}
+/*Estilo de los botones de navegacion*/
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+/*Posicion del boton de regresar*/
+#prevBtn {
+  left: 0;
+}
+/*Posicion del boton de siguiente*/
+#nextBtn {
+  right: 0;
+}
+/*Fondo*/
+body{
+  background-color: green;
+}
